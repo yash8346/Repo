@@ -6,7 +6,7 @@ const User = require("./modlas/userSchema");
 const app = express()
 
 app.use(express.json());
-const port = 4000
+const port = 'https://chattapp-9m4t.onrender.com'
 
 app.get('/', (req, res) => {
   res.status(200).send('Hwelcome!')
