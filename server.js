@@ -8,7 +8,7 @@ const app = express()
 
 
 app.use(express.json());
-const port = 4000
+const port = "https://chattapp-9m4t.onrender.com" || 4000
 
 app.use(cors({
   origin: "https://ychattingapp.netlify.app"
