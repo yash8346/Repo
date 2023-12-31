@@ -10,9 +10,7 @@ const app = express()
 app.use(express.json());
 const port = 4000
 
-app.use(cors({
-  origin: "https://ychattingapp.netlify.app"
-}))
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.status(200).send('Hwelcome!')
